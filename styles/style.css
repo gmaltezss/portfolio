@@ -1,0 +1,108 @@
+body {
+padding: 0px;
+margin: 0px;
+font-family: sans-serif;
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+main {
+         flex: 1 0 auto;
+      }
+.txt{
+  color: #f8a038;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 20px;
+  text-shadow: 0px 0px 5px #373737;
+}
+.text-logo{
+  font-family: 'Acme', sans-serif;
+  color: white;
+  font-size: 80px;
+  font-weight: 900;
+  margin: 0px;
+  text-shadow: 0px 0px 5px #373737;
+}
+.txt-go{
+  color: #64B5F6;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 20px;
+  text-shadow: 0px 0px 5px #373737;
+}
+.txt-footer{
+  color: #f8a038;
+  font-size: 20px;
+  font-weight: 900;
+  text-shadow: 0px 0px 5px #373737;
+  margin: 20px;
+}
+.menu{
+  background-color: #f5f6fa;
+  left: 0px;
+  right: 0px;
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+  border-bottom: #f8a038;
+}
+footer{
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  text-align: center;
+  background-color: #111;
+  width: 100%;
+}
+.slide{
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 80%;
+  height: 50vh;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+html {
+    background-color: #353b48;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.btn {
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
